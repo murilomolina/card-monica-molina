@@ -1,0 +1,19 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Monica Molina Barone">
+	<Card
+	  name="Mônica Molina Barone"
+	  position="Psicóloga/Psicanálise"
+	  aboutMe={`Olá! Sou a Mônica, psicóloga dedicada ao cuidado com a saúde mental e ao bem-estar emocional. Trabalho com escuta empática, acolhimento e orientação, oferecendo um espaço seguro para que você possa se conhecer melhor e enfrentar os desafios da vida com mais leveza e equilíbrio.\n\nAtuo com base em abordagens contemporâneas da psicologia, sempre respeitando as individualidades e promovendo o autoconhecimento e o desenvolvimento pessoal.\n\nVamos caminhar juntos nessa jornada de transformação?`}
+	  linkedin="https://www.linkedin.com/in/#"
+	  instagram="https://instagram.com/monica.m.barone"
+	  cvLink="/files/curriculo_Monica_M_Barone.pdf"
+	  profileImage="/images/monica_profile.jpg"
+	/>
+</BaseLayout>
